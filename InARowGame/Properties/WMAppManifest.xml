@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2009/deployment" AppPlatformVersion="7.1">
+  <App xmlns="" ProductID="{5c163ac6-f45e-4c8c-a62d-2be16eb578ee}" Title="5 in a row free" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="MP Development" Description="5 in a row free" Publisher="MP Development">
+    <IconPath IsRelative="true" IsResource="false">cr_62.png</IconPath>
+    <Capabilities>
+      <Capability Name="ID_CAP_PHONEDIALER" />
+      <Capability Name="ID_CAP_NETWORKING" />
+      <Capability Name="ID_CAP_WEBBROWSERCOMPONENT" />
+      <Capability Name="ID_CAP_IDENTITY_USER" />
+      <Capability Name="ID_CAP_MEDIALIB" />
+    </Capabilities>
+    <Tasks>
+      <DefaultTask Name="_default" NavigationPage="MainPage.xaml" />
+    </Tasks>
+    <Tokens>
+      <PrimaryToken TokenID="InARowGameToken" TaskName="_default">
+        <TemplateType5>
+          <BackgroundImageURI IsRelative="true" IsResource="false">cr_173.png</BackgroundImageURI>
+          <Count>0</Count>
+          <Title>5 in a row free</Title>
+        </TemplateType5>
+      </PrimaryToken>
+    </Tokens>
+  </App>
+</Deployment>
